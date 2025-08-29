@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --menu-color: #3E1A74;
   --fondo: #EAEAEA;
@@ -31,6 +32,8 @@
   --texto: #000000;
 }
 
+=======
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 /* Estilos Generales */
 *{
   font-family: 'Luckiest Guy', cursive;
@@ -43,7 +46,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+<<<<<<< HEAD
   background-color: var(--fondo);
+=======
+  background-color: #EAEAEA;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 }
 
 /* CONTENEDOR GENERAL*/
@@ -65,7 +72,11 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   background-color: var(--menu-color);
+=======
+  background-color: #3E1A74;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   position: relative;
   min-height: 30vh;
 }
@@ -73,6 +84,7 @@ body {
 .logo {
   width: 20vw;
   min-width: 300px;
+<<<<<<< HEAD
   margin-bottom: 20px;
 }
 
@@ -117,6 +129,14 @@ body {
   background-color: var(--blanco); 
   color: var(--texto);
   border: 4px solid var(--borde); 
+=======
+}
+.start-btn {
+  margin-top: 30px;
+  background-color: #FFF; 
+  color: #000;
+  border: 4px solid #000; 
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   padding: 15px 40px;
   font-size: 2rem;
   border-radius: 12px;
@@ -132,7 +152,10 @@ body {
   transform: scale(0.95);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 /* CUESTIONARIO */
 .quiz-container{
   width: 70%;
@@ -146,8 +169,13 @@ body {
 .quiz-header {
   width: 100%;
   position: relative;
+<<<<<<< HEAD
   top: -125px;
   background-color: var(--blanco);
+=======
+  top: -70px;
+  background-color: #FFF;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -164,10 +192,17 @@ body {
   top: -55px;
   border-radius: 100%;
   font-size: 2rem;
+<<<<<<< HEAD
   background: var(--tiempo);
   color: var(--blanco);
   padding: 10px;
   border: 8px solid var(--menu-color);
+=======
+  background: #FC7214;
+  color: #FFF;
+  padding: 10px;
+  border: 8px solid #3E1A74;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 }
 .numero-pregunta{
   margin-top: 70px;
@@ -185,21 +220,33 @@ body {
   padding: 10px 15px;
   font-size: 1.8rem;
   text-align: center;
+<<<<<<< HEAD
   white-space: pre-line;
+=======
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 }
 
 .opciones {
   width: 100%;
   display: flex;
   position: relative;
+<<<<<<< HEAD
   top: -90px;
+=======
+  top: -50px;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   flex-direction: column;
   gap: 15px;
 }
 
 .opcion-btn {
+<<<<<<< HEAD
   background: var(--pregunta);
   border: 3px solid var(--borde);
+=======
+  background: #FFD300;
+  border: 3px solid #000;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   padding: 15px;
   border-radius: 12px;
   font-size: 1.5rem;
@@ -207,12 +254,17 @@ body {
   transition: transform 0.2s ease, background 0.2s ease;
 }
 
+<<<<<<< HEAD
 .opcion-btn:disabled{
   color: var(--texto);
 }
 
 .opcion-btn:hover{
   background-color: var(--pregunta-hover);
+=======
+.opcion-btn:hover {
+  background-color: #ffea00;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 }
 
 .hidden {

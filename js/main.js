@@ -1,15 +1,21 @@
 //Referencias a elementos del DOM
 const menu = document.getElementById("menu");
 const quiz = document.getElementById("quiz");
+<<<<<<< HEAD
 const categoriaSelect = document.getElementById("categoria-select");
+=======
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 const startBtn = document.getElementById("start-btn");
 const preguntaEl = document.getElementById("pregunta");
 const preguntaAc = document.getElementById("pregunta-actual")
 const opcionesEl = document.getElementById("opciones");
 const timerEl = document.getElementById("timer");
+<<<<<<< HEAD
 const cantidadSelect = document.getElementById("cantidad-preguntas");
 const cantidadIndicador = document.getElementById("cantidad-indicador");
 
+=======
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 
 //Variables de estado
 let preguntas = [];
@@ -17,6 +23,7 @@ let preguntaIndex = 0;
 let tiempo = 60;
 let timer;
 let respuestasCorrectas = 0;
+<<<<<<< HEAD
 let categoriasSeleccionadas = [];
 let cantidadPreguntas;
 
@@ -77,10 +84,22 @@ async function cargarPreguntas() {
     preguntas = mezclarArray(preguntas).slice(0, cantidadPreguntas);
   } catch (err) {
     console.error("No se pudieron cargar las preguntas:", err);
+=======
+
+// Cargar preguntas desde JSON
+async function cargarPreguntas() {
+  try {
+    const res = await fetch("data/preguntas.json");
+    const data = await res.json();
+    preguntas = mezclarArray(data);
+  } catch (err) {
+    console.error('No se pudieron cargar las preguntas:', err);
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   }
 }
 
 // Comenzar funcionalidad del juego
+<<<<<<< HEAD
 async  function iniciarJuego() {
   await cargarPreguntas();
   if (preguntas.length === 0) return; //Si no hay preguntas no inicia
@@ -94,6 +113,11 @@ async  function iniciarJuego() {
   else if (cantidadPreguntas === 25) tiempo = 150;
 
   timerEl.textContent = tiempo;
+=======
+function iniciarJuego() {
+  preguntaIndex = 0;
+  tiempo = 60;
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   animacionInicial();
   mostrarPregunta();
   iniciarTimer();
@@ -128,7 +152,11 @@ function mostrarPregunta() {
 
   preguntaEl.textContent = pregunta.pregunta;
   const span = preguntaAc.querySelector('span');
+<<<<<<< HEAD
   span.textContent = (preguntaIndex + 1) + "/" + preguntas.length;
+=======
+  span.textContent = (preguntaIndex + 1) + "/10";
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 
   opcionesEl.innerHTML = "";
 
@@ -155,9 +183,13 @@ function verificarRespuesta(e){
   const esCorrecta = btnSeleccionado.dataset.correcta === "true"; //Verificar si opcion seleccionada es correcta
   const botones = document.querySelectorAll(".opcion-btn"); //Array con todas las opciones
 
+<<<<<<< HEAD
 
   botones.forEach(btn => {
     btn.disabled = true
+=======
+  botones.forEach(btn => {
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
     const correcto = btn.dataset.correcta === "true"; //Verificar el dataset de cada elemento
 
     //Cambiar el color segun si es correcta o no es correcta
@@ -170,10 +202,17 @@ function verificarRespuesta(e){
 
   if(esCorrecta) respuestasCorrectas++;
 
+<<<<<<< HEAD
   // Esperar un segundo antes de pasar a siguiente pregunta
   setTimeout(() => {
     siguientePregunta();
   }, 1000);
+=======
+  // Esperar 0.5 segundos antes de pasar a siguiente pregunta
+  setTimeout(() => {
+    siguientePregunta();
+  }, 500);
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
 }
 
 //Funcion para cambiar de pregunta
@@ -207,6 +246,7 @@ function terminarJuego() {
   // Mostrar resultados finales del quiz
   const span = preguntaAc.querySelector('span');
   span.style.color = "green";
+<<<<<<< HEAD
   span.textContent = respuestasCorrectas + "/" + preguntas.length;
 
   //Mensaje de ánimo al final del juego
@@ -224,6 +264,10 @@ function terminarJuego() {
   preguntaEl.textContent = mensajeFinal;
 
   
+=======
+  span.textContent = respuestasCorrectas + "/10";
+
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d
   // SVG para cambiar el icono
   const nuevoSVG = `
     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="green" class="icon icon-tabler icons-tabler-filled icon-tabler-circle-check">
@@ -245,3 +289,11 @@ function mezclarArray(array) {
   return array.sort(() => Math.random() - 0.5);
 }
 
+<<<<<<< HEAD
+=======
+//Cargar eventos una vez todo el contenido del DOM se haya mostrado
+document.addEventListener("DOMContentLoaded", () => {
+  cargarPreguntas();
+  startBtn.addEventListener("click", iniciarJuego);
+});
+>>>>>>> 4bf4185a4868883d8480d38a44cfb9745dfb8c3d

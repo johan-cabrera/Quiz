@@ -1,0 +1,92 @@
+[
+  {
+    "pregunta": "¿Cuál es la capital de Francia?",
+    "opciones": [
+      { "texto": "Madrid", "correcta": false },
+      { "texto": "París", "correcta": true },
+      { "texto": "Berlín", "correcta": false },
+      { "texto": "Roma", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el resultado de 2 + 2?",
+    "opciones": [
+      { "texto": "3", "correcta": false },
+      { "texto": "4", "correcta": true },
+      { "texto": "5", "correcta": false },
+      { "texto": "22", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué lenguaje se usa para estilizar páginas web?",
+    "opciones": [
+      { "texto": "HTML", "correcta": false },
+      { "texto": "CSS", "correcta": true },
+      { "texto": "JavaScript", "correcta": false },
+      { "texto": "Python", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el planeta más cercano al Sol?",
+    "opciones": [
+      { "texto": "Venus", "correcta": false },
+      { "texto": "Marte", "correcta": false },
+      { "texto": "Mercurio", "correcta": true },
+      { "texto": "Júpiter", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Quién escribió 'Cien años de soledad'?",
+    "opciones": [
+      { "texto": "Gabriel García Márquez", "correcta": true },
+      { "texto": "Mario Vargas Llosa", "correcta": false },
+      { "texto": "Pablo Neruda", "correcta": false },
+      { "texto": "Julio Cortázar", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "opciones": [
+      { "texto": "Au", "correcta": true },
+      { "texto": "Ag", "correcta": false },
+      { "texto": "Fe", "correcta": false },
+      { "texto": "Pb", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué año llegó el hombre a la Luna?",
+    "opciones": [
+      { "texto": "1969", "correcta": true },
+      { "texto": "1959", "correcta": false },
+      { "texto": "1979", "correcta": false },
+      { "texto": "1989", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el idioma oficial de Brasil?",
+    "opciones": [
+      { "texto": "Español", "correcta": false },
+      { "texto": "Portugués", "correcta": true },
+      { "texto": "Francés", "correcta": false },
+      { "texto": "Inglés", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué instrumento mide la presión atmosférica?",
+    "opciones": [
+      { "texto": "Barómetro", "correcta": true },
+      { "texto": "Termómetro", "correcta": false },
+      { "texto": "Higrómetro", "correcta": false },
+      { "texto": "Anemómetro", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del agua?",
+    "opciones": [
+      { "texto": "CO2", "correcta": false },
+      { "texto": "H2O", "correcta": true },
+      { "texto": "O2", "correcta": false },
+      { "texto": "NaCl", "correcta": false }
+    ]
+  }
+]
