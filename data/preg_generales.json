@@ -1,0 +1,272 @@
+[
+  {
+    "pregunta": "¿Quién pintó la Mona Lisa?",
+    "opciones": [
+      { "texto": "Leonardo da Vinci", "correcta": true },
+      { "texto": "Pablo Picasso", "correcta": false },
+      { "texto": "Miguel Ángel", "correcta": false },
+      { "texto": "Vincent van Gogh", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué país se encuentra la torre Eiffel?",
+    "opciones": [
+      { "texto": "Italia", "correcta": false },
+      { "texto": "Francia", "correcta": true },
+      { "texto": "España", "correcta": false },
+      { "texto": "Alemania", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la capital de Japón?",
+    "opciones": [
+      { "texto": "Kioto", "correcta": false },
+      { "texto": "Osaka", "correcta": false },
+      { "texto": "Hiroshima", "correcta": false },
+      { "texto": "Tokio", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Quién escribió 'Don Quijote de la Mancha'?",
+    "opciones": [
+      { "texto": "Gabriel García Márquez", "correcta": false },
+      { "texto": "Lope de Vega", "correcta": false },
+      { "texto": "Miguel de Cervantes", "correcta": true },
+      { "texto": "Federico García Lorca", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué año llegó Cristóbal Colón a América?",
+    "opciones": [
+      { "texto": "1500", "correcta": false },
+      { "texto": "1485", "correcta": false },
+      { "texto": "1519", "correcta": false },
+      { "texto": "1492", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la capital de Canadá?",
+    "opciones": [
+      { "texto": "Ottawa", "correcta": true },
+      { "texto": "Toronto", "correcta": false },
+      { "texto": "Montreal", "correcta": false },
+      { "texto": "Vancouver", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el río más largo del mundo?",
+    "opciones": [
+      { "texto": "Nilo", "correcta": false },
+      { "texto": "Amazonas", "correcta": true },
+      { "texto": "Yangtsé", "correcta": false },
+      { "texto": "Misisipi", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué continente se encuentra Egipto?",
+    "opciones": [
+      { "texto": "Asia", "correcta": false },
+      { "texto": "Europa", "correcta": false },
+      { "texto": "África", "correcta": true },
+      { "texto": "Oceanía", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el idioma oficial de Brasil?",
+    "opciones": [
+      { "texto": "Español", "correcta": false },
+      { "texto": "Inglés", "correcta": false },
+      { "texto": "Francés", "correcta": false },
+      { "texto": "Portugués", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Quién fue el primer presidente de los Estados Unidos?",
+    "opciones": [
+      { "texto": "Abraham Lincoln", "correcta": false },
+      { "texto": "George Washington", "correcta": true },
+      { "texto": "Thomas Jefferson", "correcta": false },
+      { "texto": "John Adams", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué planeta es conocido como el 'planeta rojo'?",
+    "opciones": [
+      { "texto": "Venus", "correcta": false },
+      { "texto": "Júpiter", "correcta": false },
+      { "texto": "Marte", "correcta": true },
+      { "texto": "Saturno", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Quién escribió la 'Odisea'?",
+    "opciones": [
+      { "texto": "Homero", "correcta": true },
+      { "texto": "Sófocles", "correcta": false },
+      { "texto": "Eurípides", "correcta": false },
+      { "texto": "Aristóteles", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué ciudad se encuentra el Coliseo?",
+    "opciones": [
+      { "texto": "Roma", "correcta": true },
+      { "texto": "Atenas", "correcta": false },
+      { "texto": "París", "correcta": false },
+      { "texto": "Estambul", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el océano más grande del mundo?",
+    "opciones": [
+      { "texto": "Atlántico", "correcta": false },
+      { "texto": "Índico", "correcta": false },
+      { "texto": "Ártico", "correcta": false },
+      { "texto": "Pacífico", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la moneda oficial del Reino Unido?",
+    "opciones": [
+      { "texto": "Euro", "correcta": false },
+      { "texto": "Libra esterlina", "correcta": true },
+      { "texto": "Dólar", "correcta": false },
+      { "texto": "Franco", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Quién compuso la Novena Sinfonía?",
+    "opciones": [
+      { "texto": "Mozart", "correcta": false },
+      { "texto": "Bach", "correcta": false },
+      { "texto": "Beethoven", "correcta": true },
+      { "texto": "Tchaikovsky", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la montaña más alta del mundo?",
+    "opciones": [
+      { "texto": "Monte Everest", "correcta": true },
+      { "texto": "K2", "correcta": false },
+      { "texto": "Kangchenjunga", "correcta": false },
+      { "texto": "Makalu", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué país nació William Shakespeare?",
+    "opciones": [
+      { "texto": "Francia", "correcta": false },
+      { "texto": "Alemania", "correcta": false },
+      { "texto": "Italia", "correcta": false },
+      { "texto": "Inglaterra", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué continente tiene más países?",
+    "opciones": [
+      { "texto": "Europa", "correcta": false },
+      { "texto": "Asia", "correcta": false },
+      { "texto": "África", "correcta": true },
+      { "texto": "América", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el país más poblado del mundo?",
+    "opciones": [
+      { "texto": "India", "correcta": true },
+      { "texto": "China", "correcta": false },
+      { "texto": "Estados Unidos", "correcta": false },
+      { "texto": "Indonesia", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Quién pintó 'La noche estrellada'?",
+    "opciones": [
+      { "texto": "Claude Monet", "correcta": false },
+      { "texto": "Vincent van Gogh", "correcta": true },
+      { "texto": "Paul Cézanne", "correcta": false },
+      { "texto": "Salvador Dalí", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué país se inventó la pólvora?",
+    "opciones": [
+      { "texto": "India", "correcta": false },
+      { "texto": "China", "correcta": true },
+      { "texto": "Japón", "correcta": false },
+      { "texto": "Egipto", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué año marcó el inicio de la Primera Guerra Mundial?",
+    "opciones": [
+      { "texto": "1918", "correcta": false },
+      { "texto": "1939", "correcta": false },
+      { "texto": "1929", "correcta": false },
+      { "texto": "1914", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Quién fue el creador de la teoría de la relatividad?",
+    "opciones": [
+      { "texto": "Isaac Newton", "correcta": false },
+      { "texto": "Galileo Galilei", "correcta": false },
+      { "texto": "Albert Einstein", "correcta": true },
+      { "texto": "Nicolás Copérnico", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la capital de Australia?",
+    "opciones": [
+      { "texto": "Canberra", "correcta": true },
+      { "texto": "Sídney", "correcta": false },
+      { "texto": "Melbourne", "correcta": false },
+      { "texto": "Perth", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Quién es considerado el padre del psicoanálisis?",
+    "opciones": [
+      { "texto": "Carl Jung", "correcta": false },
+      { "texto": "Sigmund Freud", "correcta": true },
+      { "texto": "Jean Piaget", "correcta": false },
+      { "texto": "Erik Erikson", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿En qué país se encuentra la ciudad de Marrakech?",
+    "opciones": [
+      { "texto": "Egipto", "correcta": false },
+      { "texto": "Turquía", "correcta": false },
+      { "texto": "Marruecos", "correcta": true },
+      { "texto": "Arabia Saudita", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el deporte más popular del mundo?",
+    "opciones": [
+      { "texto": "Baloncesto", "correcta": false },
+      { "texto": "Críquet", "correcta": false },
+      { "texto": "Tenis", "correcta": false },
+      { "texto": "Fútbol", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Quién fue el primer hombre en pisar la Luna?",
+    "opciones": [
+      { "texto": "Neil Armstrong", "correcta": true },
+      { "texto": "Buzz Aldrin", "correcta": false },
+      { "texto": "Yuri Gagarin", "correcta": false },
+      { "texto": "Michael Collins", "correcta": false }
+    ]
+  },
+  {
+  "pregunta": "¿En qué país se originaron los Juegos Olímpicos antiguos?",
+  "opciones": [
+    { "texto": "Italia", "correcta": false },
+    { "texto": "Grecia", "correcta": true },
+    { "texto": "Egipto", "correcta": false },
+    { "texto": "Turquía", "correcta": false }
+  ]
+  }
+]

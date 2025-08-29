@@ -1,0 +1,272 @@
+[
+  {
+    "pregunta": "¿Cuál es el elemento más abundante en el universo?",
+    "opciones": [
+      { "texto": "Oxígeno", "correcta": false },
+      { "texto": "Hidrógeno", "correcta": true },
+      { "texto": "Helio", "correcta": false },
+      { "texto": "Carbono", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es la fórmula química del agua?",
+    "opciones": [
+      { "texto": "H2O", "correcta": true },
+      { "texto": "HO2", "correcta": false },
+      { "texto": "OH2", "correcta": false },
+      { "texto": "O2H", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el símbolo químico del oro?",
+    "opciones": [
+      { "texto": "Ag", "correcta": false },
+      { "texto": "Gd", "correcta": false },
+      { "texto": "Au", "correcta": true },
+      { "texto": "Pt", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué ley afirma que la materia no se crea ni se destruye, solo se transforma?",
+    "opciones": [
+      { "texto": "Ley de Dalton", "correcta": false },
+      { "texto": "Ley de Boyle", "correcta": false },
+      { "texto": "Ley de Avogadro", "correcta": false },
+      { "texto": "Ley de Lavoisier", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de enlace se forma al compartir electrones?",
+    "opciones": [
+      { "texto": "Iónico", "correcta": false },
+      { "texto": "Covalente", "correcta": true },
+      { "texto": "Metálico", "correcta": false },
+      { "texto": "Puente de hidrógeno", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el número atómico del carbono?",
+    "opciones": [
+      { "texto": "12", "correcta": false },
+      { "texto": "6", "correcta": true },
+      { "texto": "8", "correcta": false },
+      { "texto": "14", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué gas es esencial para la respiración celular?",
+    "opciones": [
+      { "texto": "Oxígeno", "correcta": true },
+      { "texto": "Dióxido de carbono", "correcta": false },
+      { "texto": "Nitrógeno", "correcta": false },
+      { "texto": "Hidrógeno", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el pH de una solución neutra?",
+    "opciones": [
+      { "texto": "1", "correcta": false },
+      { "texto": "14", "correcta": false },
+      { "texto": "7", "correcta": true },
+      { "texto": "0", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe una sustancia que acelera una reacción química sin consumirse?",
+    "opciones": [
+      { "texto": "Inhibidor", "correcta": false },
+      { "texto": "Reactivo", "correcta": false },
+      { "texto": "Solvente", "correcta": false },
+      { "texto": "Catalizador", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento químico tiene el símbolo Na?",
+    "opciones": [
+      { "texto": "Nitrógeno", "correcta": false },
+      { "texto": "Neón", "correcta": false },
+      { "texto": "Sodio", "correcta": true },
+      { "texto": "Níquel", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de mezcla es el aire?",
+    "opciones": [
+      { "texto": "Mezcla heterogénea", "correcta": false },
+      { "texto": "Mezcla homogénea", "correcta": true },
+      { "texto": "Compuesto", "correcta": false },
+      { "texto": "Elemento", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el gas responsable del efecto invernadero?",
+    "opciones": [
+      { "texto": "Dióxido de carbono", "correcta": true },
+      { "texto": "Nitrógeno", "correcta": false },
+      { "texto": "Oxígeno", "correcta": false },
+      { "texto": "Argón", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué partícula subatómica tiene carga negativa?",
+    "opciones": [
+      { "texto": "Protón", "correcta": false },
+      { "texto": "Neutrón", "correcta": false },
+      { "texto": "Fotón", "correcta": false },
+      { "texto": "Electrón", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento químico es el principal componente de los diamantes?",
+    "opciones": [
+      { "texto": "Carbono", "correcta": true },
+      { "texto": "Silicio", "correcta": false },
+      { "texto": "Cuarzo", "correcta": false },
+      { "texto": "Oxígeno", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la tabla que organiza los elementos químicos?",
+    "opciones": [
+      { "texto": "Tabla periódica", "correcta": true },
+      { "texto": "Tabla de masas", "correcta": false },
+      { "texto": "Tabla atómica", "correcta": false },
+      { "texto": "Tabla molecular", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué es un mol en química?",
+    "opciones": [
+      { "texto": "Una molécula", "correcta": false },
+      { "texto": "6.022 x 10^23 partículas", "correcta": true },
+      { "texto": "Un átomo", "correcta": false },
+      { "texto": "Un gramo de cualquier sustancia", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la energía necesaria para iniciar una reacción química?",
+    "opciones": [
+      { "texto": "Energía de enlace", "correcta": false },
+      { "texto": "Calor latente", "correcta": false },
+      { "texto": "Energía de activación", "correcta": true },
+      { "texto": "Energía cinética", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué elemento químico es esencial en los huesos y dientes?",
+    "opciones": [
+      { "texto": "Hierro", "correcta": false },
+      { "texto": "Fósforo", "correcta": false },
+      { "texto": "Magnesio", "correcta": false },
+      { "texto": "Calcio", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué científico propuso el modelo atómico con órbitas circulares para los electrones?",
+    "opciones": [
+      { "texto": "Thomson", "correcta": false },
+      { "texto": "Dalton", "correcta": false },
+      { "texto": "Rutherford", "correcta": false },
+      { "texto": "Bohr", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de enlace ocurre entre metales?",
+    "opciones": [
+      { "texto": "Iónico", "correcta": false },
+      { "texto": "Covalente", "correcta": false },
+      { "texto": "Metálico", "correcta": true },
+      { "texto": "Puente de hidrógeno", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el símbolo químico del hierro?",
+    "opciones": [
+      { "texto": "Fe", "correcta": true },
+      { "texto": "Ir", "correcta": false },
+      { "texto": "In", "correcta": false },
+      { "texto": "Hg", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la sustancia que disuelve un soluto?",
+    "opciones": [
+      { "texto": "Solvente", "correcta": true },
+      { "texto": "Reactivo", "correcta": false },
+      { "texto": "Producto", "correcta": false },
+      { "texto": "Catalizador", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué científico descubrió el electrón?",
+    "opciones": [
+      { "texto": "Bohr", "correcta": false },
+      { "texto": "Thomson", "correcta": true },
+      { "texto": "Dalton", "correcta": false },
+      { "texto": "Einstein", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el estado de la materia que no tiene forma ni volumen definidos?",
+    "opciones": [
+      { "texto": "Sólido", "correcta": false },
+      { "texto": "Líquido", "correcta": false },
+      { "texto": "Gaseoso", "correcta": true },
+      { "texto": "Plasma", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué gas se libera en la combustión completa?",
+    "opciones": [
+      { "texto": "Monóxido de carbono", "correcta": false },
+      { "texto": "Metano", "correcta": false },
+      { "texto": "Nitrógeno", "correcta": false },
+      { "texto": "Dióxido de carbono", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el elemento químico más ligero?",
+    "opciones": [
+      { "texto": "Oxígeno", "correcta": false },
+      { "texto": "Hidrógeno", "correcta": true },
+      { "texto": "Helio", "correcta": false },
+      { "texto": "Litio", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el cambio de estado de sólido a gas directamente?",
+    "opciones": [
+      { "texto": "Sublimación", "correcta": true },
+      { "texto": "Evaporación", "correcta": false },
+      { "texto": "Condensación", "correcta": false },
+      { "texto": "Fusión", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué compuesto químico es la sal común?",
+    "opciones": [
+      { "texto": "KCl", "correcta": false },
+      { "texto": "NaOH", "correcta": false },
+      { "texto": "HCl", "correcta": false },
+      { "texto": "NaCl", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué gas es fundamental en la fotosíntesis?",
+    "opciones": [
+      { "texto": "Oxígeno", "correcta": false },
+      { "texto": "Nitrógeno", "correcta": false },
+      { "texto": "Hidrógeno", "correcta": false },
+      { "texto": "Dióxido de carbono", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el elemento químico con símbolo Pb?",
+    "opciones": [
+      { "texto": "Plata", "correcta": false },
+      { "texto": "Platino", "correcta": false },
+      { "texto": "Plomo", "correcta": true },
+      { "texto": "Paladio", "correcta": false }
+    ]
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "pregunta": "¿Cuál es la unidad básica de la vida?",
+    "opciones": [
+      { "texto": "Tejido", "correcta": false },
+      { "texto": "Célula", "correcta": true },
+      { "texto": "Órgano", "correcta": false },
+      { "texto": "Molécula", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué orgánulo celular es responsable de producir energía en forma de ATP?",
+    "opciones": [
+      { "texto": "Cloroplasto", "correcta": false },
+      { "texto": "Núcleo", "correcta": false },
+      { "texto": "Mitocondria", "correcta": true },
+      { "texto": "Ribosoma", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se llama el proceso mediante el cual las plantas producen su alimento?",
+    "opciones": [
+      { "texto": "Respiración celular", "correcta": false },
+      { "texto": "Fermentación", "correcta": false },
+      { "texto": "Digestión", "correcta": false },
+      { "texto": "Fotosíntesis", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tipo de células no poseen núcleo definido?",
+    "opciones": [
+      { "texto": "Eucariotas", "correcta": false },
+      { "texto": "Procariotas", "correcta": true },
+      { "texto": "Vegetales", "correcta": false },
+      { "texto": "Animales", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué molécula contiene la información genética de los seres vivos?",
+    "opciones": [
+      { "texto": "ARN", "correcta": false },
+      { "texto": "Proteína", "correcta": false },
+      { "texto": "ADN", "correcta": true },
+      { "texto": "Lípido", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué orgánulo se encarga de la síntesis de proteínas?",
+    "opciones": [
+      { "texto": "Ribosoma", "correcta": true },
+      { "texto": "Lisosoma", "correcta": false },
+      { "texto": "Cloroplasto", "correcta": false },
+      { "texto": "Aparato de Golgi", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué gas liberan las plantas durante la fotosíntesis?",
+    "opciones": [
+      { "texto": "Dióxido de carbono", "correcta": false },
+      { "texto": "Nitrógeno", "correcta": false },
+      { "texto": "Metano", "correcta": false },
+      { "texto": "Oxígeno", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué grupo sanguíneo es considerado donante universal?",
+    "opciones": [
+      { "texto": "A", "correcta": false },
+      { "texto": "B", "correcta": false },
+      { "texto": "O-", "correcta": true },
+      { "texto": "AB+", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el proceso de división celular en células somáticas?",
+    "opciones": [
+      { "texto": "Meiosis", "correcta": false },
+      { "texto": "Mitosis", "correcta": true },
+      { "texto": "Citosis", "correcta": false },
+      { "texto": "Plasmólisis", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué vitamina se produce principalmente con la exposición al sol?",
+    "opciones": [
+      { "texto": "Vitamina A", "correcta": false },
+      { "texto": "Vitamina C", "correcta": false },
+      { "texto": "Vitamina D", "correcta": true },
+      { "texto": "Vitamina K", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué estructura celular controla las funciones de la célula?",
+    "opciones": [
+      { "texto": "Mitocondria", "correcta": false },
+      { "texto": "Núcleo", "correcta": true },
+      { "texto": "Retículo endoplásmico", "correcta": false },
+      { "texto": "Citoplasma", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la molécula que transporta oxígeno en la sangre?",
+    "opciones": [
+      { "texto": "Hemoglobina", "correcta": true },
+      { "texto": "Mioglobina", "correcta": false },
+      { "texto": "Insulina", "correcta": false },
+      { "texto": "Colágeno", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué parte del sistema nervioso controla funciones involuntarias como la respiración?",
+    "opciones": [
+      { "texto": "Cerebelo", "correcta": false },
+      { "texto": "Corteza cerebral", "correcta": false },
+      { "texto": "Hipotálamo", "correcta": false },
+      { "texto": "Tronco encefálico", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el proceso por el cual las células obtienen energía de la glucosa?",
+    "opciones": [
+      { "texto": "Fotosíntesis", "correcta": false },
+      { "texto": "Respiración celular", "correcta": true },
+      { "texto": "Fermentación", "correcta": false },
+      { "texto": "Osmosis", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el estudio de los fósiles?",
+    "opciones": [
+      { "texto": "Paleontología", "correcta": true },
+      { "texto": "Geología", "correcta": false },
+      { "texto": "Arqueología", "correcta": false },
+      { "texto": "Ecología", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué tejido transporta agua en las plantas?",
+    "opciones": [
+      { "texto": "Floema", "correcta": false },
+      { "texto": "Epidermis", "correcta": false },
+      { "texto": "Xilema", "correcta": true },
+      { "texto": "Parénquima", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre reciben los organismos que producen su propio alimento?",
+    "opciones": [
+      { "texto": "Heterótrofos", "correcta": false },
+      { "texto": "Autótrofos", "correcta": true },
+      { "texto": "Parásitos", "correcta": false },
+      { "texto": "Omnívoros", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el órgano más grande del cuerpo humano?",
+    "opciones": [
+      { "texto": "Piel", "correcta": true },
+      { "texto": "Hígado", "correcta": false },
+      { "texto": "Pulmón", "correcta": false },
+      { "texto": "Intestino", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la rama de la biología que estudia los animales?",
+    "opciones": [
+      { "texto": "Zoología", "correcta": true },
+      { "texto": "Botánica", "correcta": false },      
+      { "texto": "Ecología", "correcta": false },
+      { "texto": "Microbiología", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el cambio de oruga a mariposa?",
+    "opciones": [
+      { "texto": "Mitosis", "correcta": false },
+      { "texto": "Fecundación", "correcta": false },
+      { "texto": "Crecimiento", "correcta": false },
+      { "texto": "Metamorfosis", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué estructura permite el intercambio de oxígeno y dióxido de carbono en los pulmones?",
+    "opciones": [
+      { "texto": "Bronquios", "correcta": false },
+      { "texto": "Tráquea", "correcta": false },
+      { "texto": "Alvéolos", "correcta": true },
+      { "texto": "Diafragma", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la ciencia que estudia los ecosistemas?",
+    "opciones": [
+      { "texto": "Ecología", "correcta": true },
+      { "texto": "Zoología", "correcta": false },
+      { "texto": "Genética", "correcta": false },
+      { "texto": "Botánica", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe la teoría propuesta por Charles Darwin?",
+    "opciones": [
+      { "texto": "Teoría celular", "correcta": false },
+      { "texto": "Teoría de la evolución", "correcta": true },
+      { "texto": "Teoría del Big Bang", "correcta": false },
+      { "texto": "Teoría del equilibrio químico", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué glándula produce la insulina?",
+    "opciones": [
+      { "texto": "Tiroides", "correcta": false },
+      { "texto": "Hígado", "correcta": false },
+      { "texto": "Suprarrenal", "correcta": false },
+      { "texto": "Páncreas", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el pigmento verde de las plantas?",
+    "opciones": [
+      { "texto": "Clorofila", "correcta": true },
+      { "texto": "Caroteno", "correcta": false },
+      { "texto": "Xantofila", "correcta": false },
+      { "texto": "Melanina", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cómo se llama el proceso en el que una célula sexual masculina y una femenina se unen?",
+    "opciones": [
+      { "texto": "Meiosis", "correcta": false },
+      { "texto": "Mitosis", "correcta": false },
+      { "texto": "Fecundación", "correcta": true },
+      { "texto": "Gemación", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Cuál es el principal órgano del sistema circulatorio?",
+    "opciones": [
+      { "texto": "Corazón", "correcta": true },
+      { "texto": "Cerebro", "correcta": false },
+      { "texto": "Pulmón", "correcta": false },
+      { "texto": "Hígado", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué nombre recibe el grupo de organismos que no pueden fabricar su propio alimento?",
+    "opciones": [
+      { "texto": "Autótrofos", "correcta": false },
+      { "texto": "Fotosintéticos", "correcta": false },
+      { "texto": "Saprófitos", "correcta": false },
+      { "texto": "Heterótrofos", "correcta": true }
+    ]
+  },
+  {
+    "pregunta": "¿Qué estructura del ojo regula la cantidad de luz que entra?",
+    "opciones": [
+      { "texto": "Cristalino", "correcta": false },
+      { "texto": "Retina", "correcta": false },
+      { "texto": "Iris", "correcta": true },
+      { "texto": "Córnea", "correcta": false }
+    ]
+  },
+  {
+    "pregunta": "¿Qué sistema del cuerpo humano produce hormonas?",
+    "opciones": [
+      { "texto": "Endocrino", "correcta": true },
+      { "texto": "Digestivo", "correcta": false },
+      { "texto": "Nervioso", "correcta": false },
+      { "texto": "Excretor", "correcta": false }
+    ]
+  }
+]

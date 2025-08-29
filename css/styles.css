@@ -1,0 +1,220 @@
+:root {
+  --menu-color: #3E1A74;
+  --fondo: #EAEAEA;
+  --blanco: #FFFFFF;
+  --tiempo: #FC7214;
+  --pregunta: #FFD300;
+  --pregunta-hover: #e6bd00;
+  --borde: #000000;
+  --texto: #000000;
+}
+
+:root.quimica {
+  --menu-color: #1A237E;
+  --fondo: #E8EAF6;
+  --blanco: #FFFFFF;
+  --tiempo: #FF6F00;
+  --pregunta: #00B0FF;
+  --pregunta-hover: #0091EA;
+  --borde: #000000;
+  --texto: #000000;
+}
+
+:root.biologia {
+  --menu-color: #2E7D32;
+  --fondo: #E8F5E9;
+  --blanco: #FFFFFF;
+  --tiempo: #FFB300;
+  --pregunta: #4DB6AC;
+  --pregunta-hover: #009688;
+  --borde: #000000;
+  --texto: #000000;
+}
+
+/* Estilos Generales */
+*{
+  font-family: 'Luckiest Guy', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--fondo);
+}
+
+/* CONTENEDOR GENERAL*/
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* MENÚ PRINCIPAL */
+
+.menu-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--menu-color);
+  position: relative;
+  min-height: 30vh;
+}
+
+.logo {
+  width: 20vw;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Categoria y numero de preguntas*/
+.categoria-select, .cantidad-preguntas{
+  appearance: none;
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 1.3rem;
+  border-radius: 12px;
+  border: 3px solid var(--borde);
+  cursor: pointer;
+  background: var(--blanco);
+  transition: transform 0.2s ease;
+}
+
+.cantidad-preguntas option, .categoria-select option{
+  text-align: center;
+  white-space: pre-line;
+}
+
+.categoria-select:hover, .cantidad-preguntas:hover{
+  transform: scale(1.05);
+}
+
+.cantidad-indicador {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: 3px solid var(--negro);
+  border-radius: 12px;
+  color: var(--texto);
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: light;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Boton de iniciar juego*/
+
+.start-btn {
+  margin-top: 30px;
+  background-color: var(--blanco); 
+  color: var(--texto);
+  border: 4px solid var(--borde); 
+  padding: 15px 40px;
+  font-size: 2rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.start-btn:hover {
+  transform: scale(1.1);
+}
+
+.start-btn:active {
+  transform: scale(0.95);
+}
+
+
+/* CUESTIONARIO */
+.quiz-container{
+  width: 70%;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.quiz-header {
+  width: 100%;
+  position: relative;
+  top: -125px;
+  background-color: var(--blanco);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;   
+  justify-content: center; 
+  position: absolute;
+  top: -55px;
+  border-radius: 100%;
+  font-size: 2rem;
+  background: var(--tiempo);
+  color: var(--blanco);
+  padding: 10px;
+  border: 8px solid var(--menu-color);
+}
+.numero-pregunta{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.numero-pregunta span{
+  font-size: 1.75rem;
+}
+.pregunta {
+  margin: 25px;
+  padding: 10px 15px;
+  font-size: 1.8rem;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.opciones {
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: -90px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.opcion-btn {
+  background: var(--pregunta);
+  border: 3px solid var(--borde);
+  padding: 15px;
+  border-radius: 12px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.opcion-btn:disabled{
+  color: var(--texto);
+}
+
+.opcion-btn:hover{
+  background-color: var(--pregunta-hover);
+}
+
+.hidden {
+  display: none;
+}
